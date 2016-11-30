@@ -953,3 +953,471 @@ Processing by PagesController#index as HTML
   Rendered pages/index.html.erb within layouts/application (0.1ms)
   Rendered layouts/_nav.html.erb (0.1ms)
 Completed 200 OK in 74ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 18:47:17 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (1.2ms)
+  Rendered layouts/_nav.html.erb (8.7ms)
+Completed 200 OK in 101ms (Views: 99.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 18:50:56 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (1.5ms)
+  Rendered layouts/_nav.html.erb (4.8ms)
+Completed 200 OK in 71ms (Views: 69.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 18:51:08 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (1.0ms)
+  Rendered layouts/_nav.html.erb (3.2ms)
+Completed 200 OK in 60ms (Views: 58.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/edit" for 171.66.67.3 at 2016-11-30 18:51:10 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (12.6ms)
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.2ms)
+Completed 200 OK in 73ms (Views: 71.3ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/sign_out" for 171.66.67.3 at 2016-11-30 18:51:20 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"k55ktNww4Ws8bAWXFTBUSlF4rk4qcNQfeFQmZT8NVzNSlI3rMrPvVhSplkRTeT63StEYoNJhZJrAsk+ohbmjAA=="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to https://flutter-shasancmu.c9users.io/
+Completed 302 Found in 8ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 18:51:20 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (1.7ms)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 18:52:11 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.0ms)
+  Rendered layouts/_nav.html.erb (58.5ms)
+Completed 200 OK in 119ms (Views: 118.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 18:52:25 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (1.7ms)
+Completed 200 OK in 59ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 18:55:17 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (1.6ms)
+  Rendered layouts/_nav.html.erb (3.1ms)
+Completed 200 OK in 71ms (Views: 70.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 171.66.67.3 at 2016-11-30 18:55:21 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_nav_guest.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (3.1ms)
+Completed 200 OK in 239ms (Views: 237.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 171.66.67.3 at 2016-11-30 18:55:23 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (44.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (53.9ms)
+  Rendered layouts/_nav_guest.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (2.0ms)
+Completed 200 OK in 135ms (Views: 132.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 171.66.67.3 at 2016-11-30 18:55:28 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"knKvFwlZh5VhR3L3arD24PB4XZXEuGFw4Phn1NI0egr/1NEHmrAhscRv6Jn6UPfho9IKwCcZlHl/CF8KlfRz9w==", "user"=>{"email"=>"shasanx@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "shasanx@gmail.com"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["current_sign_in_at", "2016-11-30 18:55:28.373445"], ["sign_in_count", 2], ["updated_at", "2016-11-30 18:55:28.374957"], ["id", 1]]
+  [1m[36m (11.7ms)[0m  [1mcommit transaction[0m
+Redirected to https://flutter-shasancmu.c9users.io/
+Completed 302 Found in 164ms (ActiveRecord: 12.6ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 18:55:28 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (3.0ms)
+Completed 200 OK in 63ms (Views: 62.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 18:55:37 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (3.1ms)
+Completed 200 OK in 71ms (Views: 69.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 18:55:39 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (2.9ms)
+Completed 200 OK in 177ms (Views: 176.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 18:56:56 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (1.5ms)
+  Rendered layouts/_nav.html.erb (4.7ms)
+Completed 200 OK in 81ms (Views: 79.7ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/sign_out" for 171.66.67.3 at 2016-11-30 18:56:59 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"cmBjglXdk9UwS2L3oV2EhDt4yiN9PWZvimr+nyLauburUi+qpoe1kAj3vRATHDBH7ZLjKB16JaUFNZcKQyqYJw=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to https://flutter-shasancmu.c9users.io/
+Completed 302 Found in 63ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 18:56:59 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.5ms)
+Completed 200 OK in 72ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 18:57:01 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (2.9ms)
+Completed 200 OK in 84ms (Views: 83.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 18:57:15 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (1.2ms)
+  Rendered layouts/_nav.html.erb (3.8ms)
+Completed 200 OK in 252ms (Views: 99.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 171.66.67.3 at 2016-11-30 18:57:17 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_nav_guest.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 138ms (Views: 96.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 171.66.67.3 at 2016-11-30 18:57:18 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.8ms)
+  Rendered layouts/_nav_guest.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 106ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 171.66.67.3 at 2016-11-30 18:57:22 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1B6hDocPVEH6bX39Hy49mgVX4sD+CStfp0NYWu9rw/rp1sOUSaQu7irA6+bkj0LrJQEb7goYT3G5CksBUyueyw==", "user"=>{"email"=>"shasanx@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "shasanx@gmail.com"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2016-11-30 18:55:28.373445"], ["current_sign_in_at", "2016-11-30 18:57:22.752247"], ["sign_in_count", 3], ["updated_at", "2016-11-30 18:57:22.754958"], ["id", 1]]
+  [1m[35m (12.7ms)[0m  commit transaction
+Redirected to https://flutter-shasancmu.c9users.io/
+Completed 302 Found in 179ms (ActiveRecord: 13.6ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 18:57:22 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (3.6ms)
+Completed 200 OK in 91ms (Views: 89.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/edit" for 171.66.67.3 at 2016-11-30 18:57:40 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (12.6ms)
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.2ms)
+Completed 200 OK in 131ms (Views: 128.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/profile" for 171.66.67.3 at 2016-11-30 18:57:46 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Rendered pages/profile.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (2.4ms)
+Completed 200 OK in 59ms (Views: 57.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 18:58:14 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.6ms)
+Completed 200 OK in 65ms (Views: 63.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 171.66.67.3 at 2016-11-30 18:58:14 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (3.2ms)
+Completed 200 OK in 67ms (Views: 65.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 18:58:15 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (33.5ms)
+Completed 200 OK in 87ms (Views: 86.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home" for 171.66.67.3 at 2016-11-30 18:58:16 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (3.0ms)
+Completed 200 OK in 92ms (Views: 90.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 171.66.67.3 at 2016-11-30 18:59:53 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (3.7ms)
+Completed 200 OK in 220ms (Views: 219.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 18:59:59 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (3.1ms)
+Completed 200 OK in 152ms (Views: 150.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 19:00:05 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (3.2ms)
+Completed 200 OK in 286ms (Views: 285.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 19:00:09 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (3.0ms)
+Completed 200 OK in 140ms (Views: 138.5ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/sign_out" for 171.66.67.3 at 2016-11-30 19:00:11 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ux9WcnwCvW36mRa88B9G8aZ0MuYsCMCr6oKtZQ9oS1d89/F7rul/hHDBImd+fRPQXtOgTg9uzhT9G2KZkUR8Mw=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to https://flutter-shasancmu.c9users.io/
+Completed 302 Found in 176ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 19:00:11 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (3.9ms)
+  Rendered layouts/_nav.html.erb (9.2ms)
+Completed 500 Internal Server Error in 89ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    25:       </form>
+    26:      
+    27:         <li class="dropdown">
+    28:           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= current_user.email %><span class="caret"></span></a>
+    29:           <ul class="dropdown-menu">
+    30:             <li><a href="#">Help</a></li>
+    31:             <li role="separator" class="divider"></li>
+  app/views/layouts/_nav_guest.html.erb:28:in `_app_views_layouts__nav_guest_html_erb___4489658361354897149_70060800108960'
+  app/views/layouts/_nav.html.erb:3:in `_app_views_layouts__nav_html_erb__2301403233426076529_15641520'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__4476896606206883981_30106780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (22.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (91.6ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 19:01:16 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (1.2ms)
+  Rendered layouts/_nav.html.erb (2.8ms)
+Completed 200 OK in 76ms (Views: 75.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 171.66.67.3 at 2016-11-30 19:01:20 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.6ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.4ms)
+Completed 200 OK in 171ms (Views: 169.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 171.66.67.3 at 2016-11-30 19:01:25 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ppQVuRwyBRriBjg3VCmPYpEJQnilhuQa5/zUfBfwuwtwn0oJWxYH7t/MV4y+NgL7guousCV/vEj/o2bHQJv+1w==", "user"=>{"email"=>"shasanx@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "shasanx@gmail.com"]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2016-11-30 18:57:22.752247"], ["current_sign_in_at", "2016-11-30 19:01:25.794677"], ["sign_in_count", 4], ["updated_at", "2016-11-30 19:01:25.796282"], ["id", 1]]
+  [1m[35m (10.2ms)[0m  commit transaction
+Redirected to https://flutter-shasancmu.c9users.io/
+Completed 302 Found in 232ms (ActiveRecord: 10.9ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 19:01:25 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (1.2ms)
+  Rendered layouts/_nav.html.erb (3.3ms)
+Completed 200 OK in 77ms (Views: 75.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 19:02:28 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.7ms)
+  Rendered layouts/_nav.html.erb (4.8ms)
+Completed 200 OK in 109ms (Views: 107.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 19:02:31 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (2.9ms)
+Completed 200 OK in 71ms (Views: 70.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 19:03:01 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.3ms)
+Completed 200 OK in 56ms (Views: 55.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 19:03:04 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (2.3ms)
+Completed 200 OK in 69ms (Views: 68.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 171.66.67.3 at 2016-11-30 19:03:29 +0000
+Cannot render console from 171.66.67.3! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered layouts/_nav_user.html.erb (1.1ms)
+  Rendered layouts/_nav.html.erb (3.3ms)
+Completed 200 OK in 58ms (Views: 57.0ms | ActiveRecord: 0.2ms)
